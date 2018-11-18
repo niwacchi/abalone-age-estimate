@@ -1,5 +1,29 @@
 # abalone-age-estimate
-WEB+DB PRESS 104 Shakyo.
+## WEB+DB PRESS 104 Shakyo.
 
-Python 3.7.0
-Bottle 0.12.13
+| Package           | Version |
+| ----------------- | ------- |
+| astroid           | 2.0.4   |
+| autopep8          | 1.4.3   |
+| bokeh             | 1.0.1   |
+| bottle            | 0.12.13 |
+| isort             | 4.3.4   |
+| Jinja2            | 2.10    |
+| lazy-object-proxy | 1.3.1   |
+| MarkupSafe        | 1.1.0   |
+| mccabe            | 0.6.1   |
+| numpy             | 1.15.4  |
+| packaging         | 18.0    |
+| Pillow            | 5.3.0   |
+| pip               | 18.1    |
+| pycodestyle       | 2.4.0   |
+| pylint            | 2.1.1   |
+| pyparsing         | 2.3.0   |
+| python-dateutil   | 2.7.5   |
+| PyYAML            | 3.13    |
+| scikit-learn      | 0.20.0  |
+| scipy             | 1.1.0   |
+| setuptools        | 39.0.1  |
+| six               | 1.11.0  |
+| tornado           | 5.1.1   |
+| wrapt             | 1.10.11 |
