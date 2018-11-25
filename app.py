@@ -3,7 +3,7 @@ from bokeh.embed import components
 from collections import namedtuple
 from abalone_predictor import AbalonePredictor
 from bottle import(
-    route, run, template,
+    default_app, route, template,
     request, HTTPError)
 # debug(True)
 
@@ -68,6 +68,5 @@ def get_graph(abalone):
     script, div = components(p)
     return script, div
 
+application = default_app()
 
-# reloaderにTrueをセットするとファイル更新で再起動する
-run(host='localhost', port=8080, reloader=True)
